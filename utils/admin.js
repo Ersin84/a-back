@@ -28,7 +28,7 @@ const admins = [
     joiningData: new Date(),
   },
   {
-    name: 'Corrie H. Cates',
+    name: 'Accountant Wromo',
     image: 'https://i.ibb.co/CVSjcw9/team-4.jpg',
     email: 'info.simiyoo@gmail.com',
     password: bcrypt.hashSync('Wwromo4$'),
@@ -46,7 +46,7 @@ const admins = [
     joiningData: new Date(),
   },
   {
-    name: 'Admin',
+    name: 'Admin Wromo',
     image: 'https://i.ibb.co/QFyN79P/team-1.jpg',
     email: 'info.wromo@gmail.com',
     password: bcrypt.hashSync('Wwromo1$'),
