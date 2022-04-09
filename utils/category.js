@@ -1,10 +1,10 @@
 const category = [
   {
-    parent: 'Sports & Fitness',
-    type: 'Sports & Fitness',
-    icon: 'https://i.ibb.co/qNCvxT0/dumbbell.png',
-    children: ['Sports', 'Fitness'],
-    status: 'Hide',
+    parent: 'Sports & Entertainment',
+    type: 'Sports & Entertainment',
+    icon: 'https://i.ibb.co/YNV6X1N/sport-fittnes.png',
+    children: ['Sports', 'Fitness', 'Entertainment'],
+    status: 'Show',
   },
   {
     parent: 'Beauty & Health',
@@ -18,14 +18,14 @@ const category = [
       'Body Care',
       'Shaving Needs',
     ],
-    status: 'Hide',
+    status: 'Show',
   },
   {
     parent: 'Pet Care',
     type: 'Grocery',
     icon: 'https://i.postimg.cc/RVVzrWfg/cat.png',
     children: ['Cat Care', 'Dog Care', 'Bird Care'],
-    status: 'Hide',
+    status: 'Show',
   },
 
   {
@@ -33,7 +33,7 @@ const category = [
     type: 'Health Care',
     icon: 'https://i.postimg.cc/QNqrnQBB/baby.png',
     children: ['Baby Food', 'Baby Accessories'],
-    status: 'Hide',
+    status: 'Show',
   },
 
   {
@@ -48,7 +48,7 @@ const category = [
       'Pest Control',
       'Cleaning Tools',
     ],
-    status: 'Hide',
+    status: 'Show',
   },
 
   {
@@ -56,7 +56,7 @@ const category = [
     type: 'Grocery',
     icon: 'https://i.postimg.cc/0jVF5Cmc/cookie.png',
     children: ['Cakes', 'Biscuits'],
-    status: 'Hide',
+    status: 'Show',
   },
   {
     parent: 'Snacks & Instant',
