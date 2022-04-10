@@ -9,7 +9,7 @@ const category = [
   {
     parent: 'Beauty & Health',
     type: 'Health Care',
-    icon: 'https://i.postimg.cc/gjz1P7wx/beauty.png',
+    icon: 'https://i.ibb.co/TL6JL3q/beauty.webp',
     children: [
       'Bath',
       'Cosmetics',
