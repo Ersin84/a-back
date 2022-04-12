@@ -7945,7 +7945,7 @@ const products = [
     slug: 'wromox-wordpress',
     parent: 'Themes & Plugins',
     children: 'Plugins',
-    image: 'https://wromo.com/wp-content/uploads/2022/02/wromox_A.jpg',
+    image: 'https://i.ibb.co/xq2tVq5/wromox-A.jpg',
     originalPrice: 64,
     price: 57,
     discount: 11,
