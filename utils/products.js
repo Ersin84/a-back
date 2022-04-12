@@ -6630,7 +6630,8 @@ const products = [
      description:
        'Themes is food produced by methods complying with the standards of organic farming. Standards vary worldwide, but organic farming features practices that cycle resources, promote ecological balance, and conserve biodiversity.',
    },
-  // {
+
+     // {
   //   title: 'China Orange',
   //   slug: 'china-orange',
   //   parent: 'Themes',
@@ -6750,18 +6751,16 @@ const products = [
   // },
 
   //Themes and vegetalbe- Dry Themes
-
   {
     title: 'Dates Iranian Loose',
     slug: 'dates-iranian-loose',
     parent: 'Themes & Plugins',
-    children: 
-    image:
-      'https://i.postimg.cc/CxHQRZDS/Dates-Iranian-Maryam-Loose-Kg-1-Kg.jpg',
+    children: 'Themes',
+    image: 'https://i.postimg.cc/CxHQRZDS/Dates-Iranian-Maryam-Loose-Kg-1-Kg.jpg',
     originalPrice: 15,
     price: 15,
     discount: 0,
-    unit: '1',
+    unit: '1pcs',
     quantity: 100,
     type: 'Grocery',
     tag: JSON.stringify(['dates', 'dry themes', 'themes']),
@@ -6772,7 +6771,7 @@ const products = [
     title: 'Dates Loose',
     slug: 'dates-loose',
     parent: 'Themes & Plugins',
-    children: 
+    children: 'Plugins',
     image: 'https://i.postimg.cc/25kXhzFv/Dates-Khejur-Lulu-Loose-Kg.jpg',
     originalPrice: 13,
     price: 13,
@@ -6788,7 +6787,7 @@ const products = [
     title: 'Dry Fig Loose',
     slug: 'dry-fig-loose',
     parent: 'Themes & Plugins',
-    children: 
+    children: 'Themes',
     image: 'https://i.postimg.cc/Kz4qpJW8/Dry-Fig-Loose-Kg-1-Kg.jpg',
     originalPrice: 11,
     price: 11,
@@ -6804,7 +6803,7 @@ const products = [
     title: 'Golden Garden Blueberry Plum',
     slug: 'golden-garden-plueberry-plum',
     parent: 'Themes & Plugins',
-    children: 
+    children: 'Plugins',
     image:
       'https://i.postimg.cc/jjM3hGZ1/Golden-Garden-Blueberry-Plum-220g.jpg',
     originalPrice: 13,
@@ -6821,7 +6820,7 @@ const products = [
     title: 'Golden Garden Love Plum',
     slug: 'golden-garden-love-plum',
     parent: 'Themes & Plugins',
-    children: 
+    children: 'Themes',
     image: 'https://i.postimg.cc/rmbhB56C/Golden-Garden-Love-Plum-220g.jpg',
     originalPrice: 12,
     price: 12,
@@ -6833,27 +6832,27 @@ const products = [
     description:
       'Dried fruit is fruit from which the majority of the original water content has been removed either naturally, through sun drying, or through the use of specialized dryers or dehydrators. ... Nearly half of the dried themes sold are raisins, followed by dates, prunes, figs, apricots, peaches, apples, and pears.',
   },
-  // {
-  //   title: 'Golden Garden Prune Plum',
-  //   slug: 'golden-garden-prune-plum',
-  //   parent: 'Themes & Plugins',
-  //   children: 
-  //   image: 'https://i.postimg.cc/RhHP4q4r/Golden-Garden-Prune-Plum-230g.jpg',
-  //   originalPrice: 10,
-  //   price: 10,
-  //   discount: 0,
-  //   unit: '220g',
-  //   quantity: 90,
-  //   type: 'Grocery',
-  //   tag: JSON.stringify(['dates', 'dry themes', 'themes']),
-  //   description:
-  //     'Dried fruit is fruit from which the majority of the original water content has been removed either naturally, through sun drying, or through the use of specialized dryers or dehydrators. ... Nearly half of the dried themes sold are raisins, followed by dates, prunes, figs, apricots, peaches, apples, and pears.',
-  // },
+  {
+     title: 'Golden Garden Prune Plum',
+     slug: 'golden-garden-prune-plum',
+     parent: 'Themes & Plugins',
+     children: 'Plugins',
+     image: 'https://i.postimg.cc/RhHP4q4r/Golden-Garden-Prune-Plum-230g.jpg',
+     originalPrice: 10,
+     price: 10,
+     discount: 0,
+     unit: '220g',
+     quantity: 90,
+     type: 'Grocery',
+     tag: JSON.stringify(['Plugins', 'Themes']),
+     description:
+       'Dried fruit is fruit from which the majority of the original water content has been removed either naturally, through sun drying, or through the use of specialized dryers or dehydrators. ... Nearly half of the dried themes sold are raisins, followed by dates, prunes, figs, apricots, peaches, apples, and pears.',
+   },
   // {
   //   title: 'Golden Garden Red Plum',
   //   slug: 'golden-garden-red-plum',
   //   parent: 'Themes & Plugins',
-  //   children: 
+  //   children: 'Themes',
   //   image: 'https://i.postimg.cc/CM3PJCsw/Golden-Garden-Red-Plum-220g.jpg',
   //   originalPrice: 11,
   //   price: 11,
@@ -6869,7 +6868,7 @@ const products = [
   //   title: 'Mudjoel Dates Loose',
   //   slug: 'mudjoel-dates-loose',
   //   parent: 'Themes & Plugins',
-  //   children: 
+  //   children: 'Themes',
   //   image: 'https://i.postimg.cc/y6gpFp9f/Mudjoel-Dates-Loose-Kg-1-Kg.jpg',
   //   originalPrice: 13,
   //   price: 13,
@@ -6895,7 +6894,7 @@ const products = [
     unit: '11lb',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes']),
+    tag: JSON.stringify(['Plugins', 'themes']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -6911,7 +6910,7 @@ const products = [
     unit: '22lb',
     quantity: 170,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes']),
+    tag: JSON.stringify(['Plugins', 'themes']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -6927,7 +6926,7 @@ const products = [
     unit: '9.5oz',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes']),
+    tag: JSON.stringify(['Plugins', 'themes']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -6944,7 +6943,7 @@ const products = [
     unit: '10oz',
     quantity: 130,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes']),
+    tag: JSON.stringify(['Plugins', 'themes']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -6960,7 +6959,7 @@ const products = [
     unit: '8ct',
     quantity: 170,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes']),
+    tag: JSON.stringify(['Plugins', 'themes']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -6976,7 +6975,7 @@ const products = [
   //   unit: '1pt',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -6992,7 +6991,7 @@ const products = [
   //   unit: '3oz',
   //   quantity: 110,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7008,7 +7007,7 @@ const products = [
   //   unit: '20ct',
   //   quantity: 0,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7024,7 +7023,7 @@ const products = [
   //   unit: '2lb',
   //   quantity: 140,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7040,7 +7039,7 @@ const products = [
   //   unit: '1pt',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7057,7 +7056,7 @@ const products = [
   //   unit: '1lb',
   //   quantity: 170,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7074,7 +7073,7 @@ const products = [
   //   unit: '16lb',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7091,7 +7090,7 @@ const products = [
   //   unit: '2lb',
   //   quantity: 140,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7107,7 +7106,7 @@ const products = [
   //   unit: '2lb',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7123,7 +7122,7 @@ const products = [
   //   unit: '3lb',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7140,7 +7139,7 @@ const products = [
   //   unit: '106oz',
   //   quantity: 110,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7157,7 +7156,7 @@ const products = [
   //   unit: '3pt',
   //   quantity: 160,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7174,7 +7173,7 @@ const products = [
   //   unit: 'each',
   //   quantity: 110,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7191,7 +7190,7 @@ const products = [
   //   unit: '10oz',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7207,7 +7206,7 @@ const products = [
   //   unit: '8ct',
   //   quantity: 100,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7224,7 +7223,7 @@ const products = [
   //   unit: 'each',
   //   quantity: 110,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7240,7 +7239,7 @@ const products = [
   //   unit: '12ct',
   //   quantity: 150,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7256,7 +7255,7 @@ const products = [
   //   unit: '2lb',
   //   quantity: 140,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7273,7 +7272,7 @@ const products = [
   //   unit: '8oz',
   //   quantity: 150,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7290,7 +7289,7 @@ const products = [
   //   unit: 'each',
   //   quantity: 130,
   //   type: 'Grocery',
-  //   tag: JSON.stringify(['fresh themes', 'themes']),
+  //   tag: JSON.stringify(['Plugins', 'themes']),
   //   description:
   //     'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   // },
@@ -7309,7 +7308,7 @@ const products = [
     unit: '15oz',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7325,7 +7324,7 @@ const products = [
     unit: '43ct',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7342,7 +7341,7 @@ const products = [
     unit: '2lb',
     quantity: 0,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7358,7 +7357,7 @@ const products = [
     unit: '1ct',
     quantity: 110,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7374,7 +7373,7 @@ const products = [
     unit: 'each',
     quantity: 120,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7390,7 +7389,7 @@ const products = [
     unit: '16ct',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7407,7 +7406,7 @@ const products = [
     unit: 'each',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7425,7 +7424,7 @@ const products = [
     unit: '1lb',
     quantity: 0,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7442,7 +7441,7 @@ const products = [
     unit: 'each',
     quantity: 160,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7458,7 +7457,7 @@ const products = [
     unit: 'each',
     quantity: 120,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7474,7 +7473,7 @@ const products = [
     unit: '5ct',
     quantity: 140,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7490,7 +7489,7 @@ const products = [
     unit: '2lb',
     quantity: 180,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7506,7 +7505,7 @@ const products = [
     unit: '22ct',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7522,7 +7521,7 @@ const products = [
     unit: '5qt',
     quantity: 40,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7538,7 +7537,7 @@ const products = [
     unit: '10oz',
     quantity: 10,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7555,7 +7554,7 @@ const products = [
     unit: '1lb',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7571,7 +7570,7 @@ const products = [
     unit: '1lb',
     quantity: 70,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7587,7 +7586,7 @@ const products = [
     unit: '1lb',
     quantity: 60,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7603,7 +7602,7 @@ const products = [
     unit: '12ct',
     quantity: 90,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7619,7 +7618,7 @@ const products = [
     unit: 'each',
     quantity: 10,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7635,7 +7634,7 @@ const products = [
     unit: '8oz',
     quantity: 60,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7651,7 +7650,7 @@ const products = [
     unit: 'each',
     quantity: 150,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7668,7 +7667,7 @@ const products = [
     unit: '10oz',
     quantity: 150,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7685,7 +7684,7 @@ const products = [
     unit: '5lb',
     quantity: 60,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -7702,7 +7701,7 @@ const products = [
     unit: 'each',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7719,7 +7718,7 @@ const products = [
     unit: '25oz',
     quantity: 90,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -7736,7 +7735,7 @@ const products = [
     unit: '1lb',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7753,7 +7752,7 @@ const products = [
     unit: '1ct',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7769,7 +7768,7 @@ const products = [
     unit: '1lb',
     quantity: 130,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7786,7 +7785,7 @@ const products = [
     unit: '35lb',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7803,7 +7802,7 @@ const products = [
     unit: '25oz',
     quantity: 50,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -7820,7 +7819,7 @@ const products = [
     unit: 'each',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7836,7 +7835,7 @@ const products = [
     unit: '12ct',
     quantity: 10,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7853,7 +7852,7 @@ const products = [
     unit: '1lb',
     quantity: 110,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7869,7 +7868,7 @@ const products = [
     unit: 'each',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7885,7 +7884,7 @@ const products = [
     unit: '25qt',
     quantity: 140,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
@@ -7902,7 +7901,7 @@ const products = [
     unit: '4ct',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7919,7 +7918,7 @@ const products = [
     unit: '3oz',
     quantity: 100,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
   },
@@ -7935,7 +7934,7 @@ const products = [
     unit: '5ct',
     quantity: 160,
     type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    tag: JSON.stringify(['Plugins', 'themes', 'vegetable']),
     description:
       'In a botanical sense, a fruit is the fleshy or dry ripened ovary of a flowering plant, enclosing the seed or seeds. Apricots, bananas, and grapes, as well as bean pods, corn grains, tomatoes, cucumbers, and (in their shells) acorns and almonds, are all technically themes.',
   },
