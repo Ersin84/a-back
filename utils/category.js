@@ -89,10 +89,10 @@ const category = [
   },
 
   {
-    parent: 'Organic Food',
+    parent: 'Themes',
     type: 'Grocery',
     icon: 'https://i.ibb.co/xmGhNRF/apple.png',
-    children: ['Organic Food'],
+    children: ['Themes'],
     status: 'Show',
   },
 
@@ -123,7 +123,7 @@ const category = [
     parent: 'Cooking Essentials',
     type: 'Grocery',
     icon: 'https://i.ibb.co/hBv30Rt/frying-pan.png',
-    children: ['Oil', 'Rice', 'Flour', 'Dry Vegetable', 'Spices & Mixes'],
+    children: ['Oil', 'Rice', 'Flour', 'Dry Plugins', 'Spices & Mixes'],
     status: 'Show',
   },
 
@@ -136,10 +136,10 @@ const category = [
   },
 
   {
-    parent: 'Fruits & Vegetable',
+    parent: 'Themes & Plugins',
     type: 'Grocery',
-    icon: 'https://i.postimg.cc/RZ275n3f/cabbage.png',
-    children: ['Dry Fruits', 'Fresh Fruits', 'Fresh Vegetable'],
+    icon: 'https://i.ibb.co/YNmFTyL/logo-3.png',
+    children: ['Themes', 'Plugins'],
     status: 'Show',
   },
   {
