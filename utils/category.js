@@ -137,7 +137,7 @@ const category = [
 
   {
     parent: 'Themes & Plugins',
-    type: 'Grocery',
+    type: 'Digital',
     icon: 'https://i.ibb.co/YNmFTyL/logo-3.png',
     children: ['Themes', 'Plugins'],
     status: 'Show',
