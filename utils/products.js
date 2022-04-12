@@ -7941,20 +7941,20 @@ const products = [
   },
 
   {
-    title: 'Rainbow Chard',
-    slug: 'rainbow-chard',
+    title: 'Wromox Theme Builder',
+    slug: 'wromox-wordpress',
     parent: 'Themes & Plugins',
     children: 'Plugins',
-    image: 'https://i.postimg.cc/Z5yQ47YB/Rainbow-Chard-Package-per-lb.jpg',
-    originalPrice: 12,
-    price: 12,
-    discount: 0,
-    unit: '1lb',
-    quantity: 100,
-    type: 'Grocery',
-    tag: JSON.stringify(['fresh themes', 'themes', 'vegetable']),
+    image: 'https://wromo.com/wp-content/uploads/2022/02/wromox_A.jpg',
+    originalPrice: 64,
+    price: 57,
+    discount: 11,
+    unit: '1pcs',
+    quantity: 999,
+    type: 'Digital',
+    tag: JSON.stringify(['Themes', 'Wordpress', 'Wromox']),
     description:
-      'Most fresh vegetables are low in calories and have a water content in excess of 70 percent, with only about 3.5 percent protein and less than 1 percent fat. ... The root vegetables include beets, carrots, radishes, sweet potatoes, and turnips. Stem vegetables include asparagus and kohlrabi.',
+      'Next Wromox Builder Studio all-in-one solution for WooCommerce, to Build High-quality design Theme in Wordpress. Next Wromox Builder Studio has a very good rating on Google PageSpeed, it is fast and has many good features, one of the best e-commerce theme for WordPress.',
   },
 
   {
