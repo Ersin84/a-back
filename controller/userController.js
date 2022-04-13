@@ -26,7 +26,7 @@ const verifyEmailAddress = async (req, res) => {
 
         <a href=${process.env.STORE_URL}/user/email-verification/${token} style="background:#22c55e;color:white;border:1px solid #22c55e; padding: 10px 15px; border-radius: 4px; text-decoration:none;">Verify Account</a>
 
-        <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at support@wromo.com</p>
+        <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at info.wromo@gmail.com</p>
 
         <p style="margin-bottom:0px;">Thank you</p>
         <strong>Wromo Team</strong>
@@ -131,7 +131,7 @@ const forgetPassword = async (req, res) => {
 
         <a href=${process.env.STORE_URL}/user/forget-password/${token} style="background:#22c55e;color:white;border:1px solid #22c55e; padding: 10px 15px; border-radius: 4px; text-decoration:none;">Reset Password</a>
 
-        <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at support@wromo.com</p>
+        <p style="margin-top: 35px;">If you did not initiate this request, please contact us immediately at info.wromo@gmail.com</p>
 
         <p style="margin-bottom:0px;">Thank you</p>
         <strong>Wromo Team</strong>
