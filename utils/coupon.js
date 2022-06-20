@@ -30,7 +30,7 @@ const coupons = [
     title: 'GO Gift Voucher',
     couponCode: 'GO2022',
     endTime: '2024-03-18T23:15:00Z',
-    discountPercentage: 32,
+    discountPercentage: 33,
     minimumAmount: 25,
     productType: 'Electronics',
     logo: 'https://i.ibb.co/8KRkx2s/foto-e.webp',
