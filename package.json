@@ -1,7 +1,7 @@
 {
-  "name": "dashtar-admin",
-  "version": "0.1.0",
-  "description": "this is the server of dashtar built with node, express, mongoose schema validation and use mongodb as a database",
+  "name": "backend-app-admin",
+  "version": "0.1.1",
+  "description": "this is the server of wromo.app built with node, express, mongoose schema validation and use mongodb as a database",
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon api/index.js",
